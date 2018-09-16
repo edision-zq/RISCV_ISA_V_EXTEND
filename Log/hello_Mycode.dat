@@ -1,0 +1,437 @@
+
+_InitBegin: (PC = 29)
+
+#   using  four bytes to save (PC = 30)
+
+#    allocate  room to  stack (PC = 31)
+
+	addiu32  $sp, $sp,   3600 (PC = 32)
+Source Reg 0 : sp = 0 
+Imm : e10  
+Result : sp = e10 
+
+ (PC = 33)
+
+	addiu32  r4, zero,   3800   #ed8   store Q (PC = 34)
+Source Reg 0 : zero = 0 
+Imm : ed8  
+Result : r4 = ed8 
+
+	addiu32  $sp, $sp,   200 (PC = 35)
+Source Reg 0 : sp = e10 
+Imm : c8  
+Result : sp = ed8 
+
+	addiu64  $gwr1, $gwr0, 0x7bcd553be2fd48aa71278209c9ae66c3667bd64eb277da907e9a66b13fff5480  #qx_re (PC = 36)
+Source Reg 0 : gwr0 = 0 
+Imm : 7bcd553be2fd48aa71278209c9ae66c3667bd64eb277da907e9a66b13fff5480  
+Result : gwr1 = 7bcd553be2fd48aa71278209c9ae66c3667bd64eb277da907e9a66b13fff5480 
+
+	st64     $gwr1, 0($sp) (PC = 37)
+Write  To Memory Address: 3b6 From Reg gwr1, Value is 7bcd553be2fd48aa71278209 
+
+	addiu64  $gwr1, $gwr0, 0x529f55d5a4ba185804594ff57177b954f8f233bcbd5168729d92fd2d83b69d9e  #qx_im (PC = 38)
+Source Reg 0 : gwr0 = 0 
+Imm : 529f55d5a4ba185804594ff57177b954f8f233bcbd5168729d92fd2d83b69d9e  
+Result : gwr1 = 529f55d5a4ba185804594ff57177b954f8f233bcbd5168729d92fd2d83b69d9e 
+
+	st64     $gwr1, 8($sp) (PC = 39)
+Write  To Memory Address: 3b8 From Reg gwr1, Value is 529f55d5a4ba185804594ff5 
+
+	addiu64  $gwr1, $gwr0, 0x8665582eceb5fa5ca7a0d56b9300323a31a662b8247893b54900e87737a5b02    #qy_re (PC = 40)
+Source Reg 0 : gwr0 = 0 
+Imm : 8665582eceb5fa5ca7a0d56b9300323a31a662b8247893b54900e87737a5b02  
+Result : gwr1 = 8665582eceb5fa5ca7a0d56b9300323a31a662b8247893b54900e87737a5b02 
+
+	st64     $gwr1, 16($sp) (PC = 41)
+Write  To Memory Address: 3ba From Reg gwr1, Value is 8665582eceb5fa5ca7a0d56 
+
+	addiu64  $gwr1, $gwr0, 0x7d7acb3ffe8210975ed64a6f2d4bc7fbe3ad76122ffeddd692e3c9193f83134b   #qy_im (PC = 42)
+Source Reg 0 : gwr0 = 0 
+Imm : 7d7acb3ffe8210975ed64a6f2d4bc7fbe3ad76122ffeddd692e3c9193f83134b  
+Result : gwr1 = 7d7acb3ffe8210975ed64a6f2d4bc7fbe3ad76122ffeddd692e3c9193f83134b 
+
+	st64     $gwr1, 24($sp) (PC = 43)
+Write  To Memory Address: 3bc From Reg gwr1, Value is 7d7acb3ffe8210975ed64a6f 
+
+	addiu64  $gwr1, $gwr0, 0xa78aef92ad20627cc1a43dea605053967fcb725ef257f927fa4236273c7d2da1    #qz_re (PC = 44)
+Source Reg 0 : gwr0 = 0 
+Imm : a78aef92ad20627cc1a43dea605053967fcb725ef257f927fa4236273c7d2da1  
+Result : gwr1 = a78aef92ad20627cc1a43dea605053967fcb725ef257f927fa4236273c7d2da1 
+
+	st64     $gwr1, 32($sp) (PC = 45)
+Write  To Memory Address: 3be From Reg gwr1, Value is a78aef92ad20627cc1a43dea 
+
+	addiu64  $gwr1, $gwr0, 0                                                                    #qz_im (PC = 46)
+Source Reg 0 : gwr0 = 0 
+Imm : 0  
+Result : gwr1 = 0 
+
+	st64     $gwr1, 40($sp) (PC = 47)
+Write  To Memory Address: 3c0 From Reg gwr1, Value is 0 
+
+	addiu32  $sp, $sp, -200 (PC = 48)
+Source Reg 0 : sp = ed8 
+Imm : -c8  
+Result : sp = e10 
+
+ (PC = 49)
+
+	addiu32  r5, zero,   3848   #f08   store P (PC = 50)
+Source Reg 0 : zero = 0 
+Imm : f08  
+Result : r5 = f08 
+
+	addiu32  $sp, $sp,   248 (PC = 51)
+Source Reg 0 : sp = e10 
+Imm : f8  
+Result : sp = f08 
+
+	addiu64  $gwr1, $gwr0, 0xa65a5c2cf75dbbc64d47221ead4ca79c2dccc3ac5a689ab49588be6baa834700  #px (PC = 52)
+Source Reg 0 : gwr0 = 0 
+Imm : a65a5c2cf75dbbc64d47221ead4ca79c2dccc3ac5a689ab49588be6baa834700  
+Result : gwr1 = a65a5c2cf75dbbc64d47221ead4ca79c2dccc3ac5a689ab49588be6baa834700 
+
+	st64     $gwr1, 0($sp) (PC = 53)
+Write  To Memory Address: 3c2 From Reg gwr1, Value is a65a5c2cf75dbbc64d47221e 
+
+	addiu64  $gwr1, $gwr0, 0x336a0a628186c866e1cd4c1eafd8ad645f60e1c3f473ca6b46d3409274f48a25  #py (PC = 54)
+Source Reg 0 : gwr0 = 0 
+Imm : 336a0a628186c866e1cd4c1eafd8ad645f60e1c3f473ca6b46d3409274f48a25  
+Result : gwr1 = 336a0a628186c866e1cd4c1eafd8ad645f60e1c3f473ca6b46d3409274f48a25 
+
+	st64     $gwr1, 8($sp) (PC = 55)
+Write  To Memory Address: 3c4 From Reg gwr1, Value is 336a0a628186c866e1cd4c1e 
+
+	addiu64  $gwr1, $gwr0, 0xa78aef92ad20627cc1a43dea605053967fcb725ef257f927fa4236273c7d2da1    #pz (PC = 56)
+Source Reg 0 : gwr0 = 0 
+Imm : a78aef92ad20627cc1a43dea605053967fcb725ef257f927fa4236273c7d2da1  
+Result : gwr1 = a78aef92ad20627cc1a43dea605053967fcb725ef257f927fa4236273c7d2da1 
+
+	st64     $gwr1, 16($sp) (PC = 57)
+Write  To Memory Address: 3c6 From Reg gwr1, Value is a78aef92ad20627cc1a43dea 
+
+	addiu32  $sp, $sp, -248 (PC = 58)
+Source Reg 0 : sp = f08 
+Imm : -f8  
+Result : sp = e10 
+
+ (PC = 59)
+
+	addiu32  r1, zero,   3896 (PC = 60)
+Source Reg 0 : zero = 0 
+Imm : f38  
+Result : r1 = f38 
+
+	st32     $r1, 8($sp)        #f38    store para (PC = 61)
+Write st32 To Memory Address: 386 From Reg r1, Value is f38 
+
+	addiu32  $sp, $sp, 296 (PC = 62)
+Source Reg 0 : sp = e10 
+Imm : 128  
+Result : sp = f38 
+
+	addiu64  $gwr1, $gwr0, 0x6c140ed00d7fb63041aabf03f20c32cb2ab93a57e15b8f12fbb1a2cd020007af   #gama11 (PC = 63)
+Source Reg 0 : gwr0 = 0 
+Imm : 6c140ed00d7fb63041aabf03f20c32cb2ab93a57e15b8f12fbb1a2cd020007af  
+Result : gwr1 = 6c140ed00d7fb63041aabf03f20c32cb2ab93a57e15b8f12fbb1a2cd020007af 
+
+	st64     $gwr1, 0($sp) (PC = 64)
+Write  To Memory Address: 3ce From Reg gwr1, Value is 6c140ed00d7fb63041aabf03 
+
+	addiu64  $gwr1, $gwr0, 0x2918491e9bc59d0cd66699a46a7f8fb228692345eb935910a22e880063d7ca46   #gama12                                                              #gama11_im (PC = 65)
+Source Reg 0 : gwr0 = 0 
+Imm : 2918491e9bc59d0cd66699a46a7f8fb228692345eb935910a22e880063d7ca46  
+Result : gwr1 = 2918491e9bc59d0cd66699a46a7f8fb228692345eb935910a22e880063d7ca46 
+
+	st64     $gwr1, 8($sp) (PC = 66)
+Write  To Memory Address: 3d0 From Reg gwr1, Value is 2918491e9bc59d0cd66699a4 
+
+	addiu64  $gwr1, $gwr0, 0x41a43a930a2d5e230eaad4de06bcaab080ae8909c1ea9d781f43fd5dc12ecaf1   #gama13 (PC = 67)
+Source Reg 0 : gwr0 = 0 
+Imm : 41a43a930a2d5e230eaad4de06bcaab080ae8909c1ea9d781f43fd5dc12ecaf1  
+Result : gwr1 = 41a43a930a2d5e230eaad4de06bcaab080ae8909c1ea9d781f43fd5dc12ecaf1 
+
+	st64     $gwr1, 16($sp) (PC = 68)
+Write  To Memory Address: 3d2 From Reg gwr1, Value is 41a43a930a2d5e230eaad4de 
+
+	addiu64  $gwr1, $gwr0, 0x37cd598bf148e181eac60709ffbe0360ca90443213b64ec48d5bed010aabe222   #gama14                                                        #gama12_im (PC = 69)
+Source Reg 0 : gwr0 = 0 
+Imm : 37cd598bf148e181eac60709ffbe0360ca90443213b64ec48d5bed010aabe222  
+Result : gwr1 = 37cd598bf148e181eac60709ffbe0360ca90443213b64ec48d5bed010aabe222 
+
+	st64     $gwr1, 24($sp) (PC = 70)
+Write  To Memory Address: 3d4 From Reg gwr1, Value is 37cd598bf148e181eac60709 
+
+	addiu64  $gwr1, $gwr0, 0x8bd02bc2ff514ee4a303c12a0a3f3f2a77e7e1fcfb09fd410901f5b8a28008bf   #gama15 (PC = 71)
+Source Reg 0 : gwr0 = 0 
+Imm : 8bd02bc2ff514ee4a303c12a0a3f3f2a77e7e1fcfb09fd410901f5b8a28008bf  
+Result : gwr1 = 8bd02bc2ff514ee4a303c12a0a3f3f2a77e7e1fcfb09fd410901f5b8a28008bf 
+
+	st64     $gwr1, 32($sp) (PC = 72)
+Write  To Memory Address: 3d6 From Reg gwr1, Value is 8bd02bc2ff514ee4a303c12a 
+
+	addiu64  $gwr1, $gwr0, 0x2918491e9bc59d0cd66699a46a7f8fb228692345eb935910a22e880063d7ca46    #gama21                                                        #gama13_im (PC = 73)
+Source Reg 0 : gwr0 = 0 
+Imm : 2918491e9bc59d0cd66699a46a7f8fb228692345eb935910a22e880063d7ca46  
+Result : gwr1 = 2918491e9bc59d0cd66699a46a7f8fb228692345eb935910a22e880063d7ca46 
+
+	st64     $gwr1, 40($sp) (PC = 74)
+Write  To Memory Address: 3d8 From Reg gwr1, Value is 2918491e9bc59d0cd66699a4 
+
+	addiu64  $gwr1, $gwr0, 0x37cd598bf148e181eac60709ffbe0360ca90443213b64ec48d5bed010aabe222    #gama22 (PC = 75)
+Source Reg 0 : gwr0 = 0 
+Imm : 37cd598bf148e181eac60709ffbe0360ca90443213b64ec48d5bed010aabe222  
+Result : gwr1 = 37cd598bf148e181eac60709ffbe0360ca90443213b64ec48d5bed010aabe222 
+
+	st64     $gwr1, 48($sp) (PC = 76)
+Write  To Memory Address: 3da From Reg gwr1, Value is 37cd598bf148e181eac60709 
+
+	addiu64  $gwr1, $gwr0, 0xeb5106d55834475145f6d65953e73aea22720ec2822f5b3eb2d6500a6d417dc      #gama23                                                      #gama14_im (PC = 77)
+Source Reg 0 : gwr0 = 0 
+Imm : eb5106d55834475145f6d65953e73aea22720ec2822f5b3eb2d6500a6d417dc  
+Result : gwr1 = eb5106d55834475145f6d65953e73aea22720ec2822f5b3eb2d6500a6d417dc 
+
+	st64     $gwr1, 56($sp) (PC = 78)
+Write  To Memory Address: 3dc From Reg gwr1, Value is eb5106d55834475145f6d65 
+
+	addiu64  $gwr1, $gwr0, 0x8d27b6e166de09e4ff9d11ab8b0f3792f98970052ee795cb434113277f797b37   #gama24 (PC = 79)
+Source Reg 0 : gwr0 = 0 
+Imm : 8d27b6e166de09e4ff9d11ab8b0f3792f98970052ee795cb434113277f797b37  
+Result : gwr1 = 8d27b6e166de09e4ff9d11ab8b0f3792f98970052ee795cb434113277f797b37 
+
+	st64     $gwr1, 64($sp) (PC = 80)
+Write  To Memory Address: 3de From Reg gwr1, Value is 8d27b6e166de09e4ff9d11ab 
+
+	addiu64  $gwr1, $gwr0, 0x7e72a674115ac56feb3da445f5d0c3e457624f1906c4a0175813ae26d8a5635b    #gama25                                                        #gama15_im (PC = 81)
+Source Reg 0 : gwr0 = 0 
+Imm : 7e72a674115ac56feb3da445f5d0c3e457624f1906c4a0175813ae26d8a5635b  
+Result : gwr1 = 7e72a674115ac56feb3da445f5d0c3e457624f1906c4a0175813ae26d8a5635b 
+
+	st64     $gwr1, 72($sp) (PC = 82)
+Write  To Memory Address: 3e0 From Reg gwr1, Value is 7e72a674115ac56feb3da445 
+
+	addiu64  $gwr1, $gwr0, 0x41a43a930a2d5e230eaad4de06bcaab080ae8909c1ea9d781f43fd5dc12ecaf1    #gama31 (PC = 83)
+Source Reg 0 : gwr0 = 0 
+Imm : 41a43a930a2d5e230eaad4de06bcaab080ae8909c1ea9d781f43fd5dc12ecaf1  
+Result : gwr1 = 41a43a930a2d5e230eaad4de06bcaab080ae8909c1ea9d781f43fd5dc12ecaf1 
+
+	st64     $gwr1, 80($sp) (PC = 84)
+Write  To Memory Address: 3e2 From Reg gwr1, Value is 41a43a930a2d5e230eaad4de 
+
+	addiu64  $gwr1, $gwr0, 0xeb5106d55834475145f6d65953e73aea22720ec2822f5b3eb2d6500a6d417dc     #gama32                                                       #gama21_im (PC = 85)
+Source Reg 0 : gwr0 = 0 
+Imm : eb5106d55834475145f6d65953e73aea22720ec2822f5b3eb2d6500a6d417dc  
+Result : gwr1 = eb5106d55834475145f6d65953e73aea22720ec2822f5b3eb2d6500a6d417dc 
+
+	st64     $gwr1, 88($sp) (PC = 86)
+Write  To Memory Address: 3e4 From Reg gwr1, Value is eb5106d55834475145f6d65 
+
+	addiu64  $gwr1, $gwr0, 0x749bc56cf87648cec758d671eed21c94a1440a4158905163c62b9dca22227a8c    #gama33 (PC = 87)
+Source Reg 0 : gwr0 = 0 
+Imm : 749bc56cf87648cec758d671eed21c94a1440a4158905163c62b9dca22227a8c  
+Result : gwr1 = 749bc56cf87648cec758d671eed21c94a1440a4158905163c62b9dca22227a8c 
+
+	st64     $gwr1, 96($sp) (PC = 88)
+Write  To Memory Address: 3e6 From Reg gwr1, Value is 749bc56cf87648cec758d671 
+
+	addiu64  $gwr1, $gwr0, 0xa78aef92ad20627cc1a43dea605053967fcb725ef257f927fa4236273c7d2da1    #gama34                                                        #gama22_im (PC = 89)
+Source Reg 0 : gwr0 = 0 
+Imm : a78aef92ad20627cc1a43dea605053967fcb725ef257f927fa4236273c7d2da1  
+Result : gwr1 = a78aef92ad20627cc1a43dea605053967fcb725ef257f927fa4236273c7d2da1 
+
+	st64     $gwr1, 104($sp) (PC = 90)
+Write  To Memory Address: 3e8 From Reg gwr1, Value is a78aef92ad20627cc1a43dea 
+
+	addiu64  $gwr1, $gwr0, 0x41a43a930a2d5e230eaad4de06bcaab080ae8909c1ea9d781f43fd5dc12ecaf1     #gama35 (PC = 91)
+Source Reg 0 : gwr0 = 0 
+Imm : 41a43a930a2d5e230eaad4de06bcaab080ae8909c1ea9d781f43fd5dc12ecaf1  
+Result : gwr1 = 41a43a930a2d5e230eaad4de06bcaab080ae8909c1ea9d781f43fd5dc12ecaf1 
+
+	st64     $gwr1, 112($sp) (PC = 92)
+Write  To Memory Address: 3ea From Reg gwr1, Value is 41a43a930a2d5e230eaad4de 
+
+	addiu64  $gwr1, $gwr0, 0x42                                                                   #loop (PC = 93)
+Source Reg 0 : gwr0 = 0 
+Imm : 42  
+Result : gwr1 = 42 
+
+	st32     $gwr1, 120($sp) (PC = 94)
+Write st32 To Memory Address: 3ec From Reg gwr1, Value is 42 
+
+	addiu64  $gwr1, $gwr0, 0xb0989822472d8ab5e4dcb631e1c451d8c45a955ec997c01c38efdee806012f10     #R^2 (PC = 95)
+Source Reg 0 : gwr0 = 0 
+Imm : b0989822472d8ab5e4dcb631e1c451d8c45a955ec997c01c38efdee806012f10  
+Result : gwr1 = b0989822472d8ab5e4dcb631e1c451d8c45a955ec997c01c38efdee806012f10 
+
+	st64     $gwr1, 128($sp) (PC = 96)
+Write  To Memory Address: 3ee From Reg gwr1, Value is b0989822472d8ab5e4dcb631 
+
+	addiu64  $gwr1, $gwr0, 0x600000000058f98a                                                      #t (PC = 97)
+Source Reg 0 : gwr0 = 0 
+Imm : 600000000058f98a  
+Result : gwr1 = 600000000058f98a 
+
+	st64     $gwr1, 136($sp) (PC = 98)
+Write  To Memory Address: 3f0 From Reg gwr1, Value is 0 
+
+	addiu64  $gwr1, $gwr0, 0xf937508000000004                                                      #loopIndex (PC = 99)
+Source Reg 0 : gwr0 = 0 
+Imm : f937508000000004  
+Result : gwr1 = f937508000000004 
+
+	st64     $gwr1, 144($sp) (PC = 100)
+Write  To Memory Address: 3f2 From Reg gwr1, Value is 0 
+
+	addiu64  $gwr1, $gwr0, 0xa78aef92ad20627cc1a43dea605053967fcb725ef257f927fa4236273c7d2da1      #MontFieldOne (PC = 101)
+Source Reg 0 : gwr0 = 0 
+Imm : a78aef92ad20627cc1a43dea605053967fcb725ef257f927fa4236273c7d2da1  
+Result : gwr1 = a78aef92ad20627cc1a43dea605053967fcb725ef257f927fa4236273c7d2da1 
+
+	st64     $gwr1, 152($sp) (PC = 102)
+Write  To Memory Address: 3f4 From Reg gwr1, Value is a78aef92ad20627cc1a43dea 
+
+	addiu64  $gwr1, $gwr0, 0xb640000002a3a6f1d603ab4ff58ec74521f2934b1a7aeedbe56f9b27e351457d       #p (PC = 103)
+Source Reg 0 : gwr0 = 0 
+Imm : b640000002a3a6f1d603ab4ff58ec74521f2934b1a7aeedbe56f9b27e351457d  
+Result : gwr1 = b640000002a3a6f1d603ab4ff58ec74521f2934b1a7aeedbe56f9b27e351457d 
+
+	st64     $gwr1, 160($sp) (PC = 104)
+Write  To Memory Address: 3f6 From Reg gwr1, Value is b640000002a3a6f1d603ab4f 
+
+	addiu32  $sp, $sp, -296 (PC = 105)
+Source Reg 0 : sp = f38 
+Imm : -128  
+Result : sp = e10 
+
+ (PC = 106)
+
+	addiu32  fp, zero,   400 (PC = 107)
+Source Reg 0 : zero = 0 
+Imm : 190  
+Result : fp = 190 
+
+ (PC = 108)
+
+ (PC = 109)
+
+ (PC = 110)
+
+#   using    single  byte to save (PC = 111)
+
+#   addiu32  $sp, $sp,   14400 (PC = 112)
+
+#	addiu32  r4, zero,   16768   #1060   store Q (PC = 113)
+
+#	addiu32  r5, zero,   16816   #106c   store P (PC = 114)
+
+#	addiu32  fp, zero,   400 (PC = 115)
+
+#	addiu32  r1, zero,   16840 (PC = 116)
+
+#	st32     $r1, 8($sp)        #1072    store para (PC = 117)
+
+ (PC = 118)
+
+ (PC = 119)
+
+_InitEnd: (PC = 120)
+
+main: (PC = 0)
+
+	add	sp,sp,-48 (PC = 1)
+Source Reg 0 : sp = e10  
+Imm: -30  
+Result : sp = de0 
+
+	sd	s0,40(sp) (PC = 2)
+LOAD  From Memory Address: e08 From Reg s0, Value is 0 
+
+	add	s0,sp,48 (PC = 3)
+Source Reg 0 : sp = de0  
+Imm: 30  
+Result : s0 = e10 
+
+	li	a5,12 (PC = 4)
+Imm = c  
+Result : a5 = c 
+
+	sd	a5,-24(s0) (PC = 5)
+LOAD  From Memory Address: df8 From Reg a5, Value is 0 
+
+	li	a5,16 (PC = 6)
+Imm = 10  
+Result : a5 = 10 
+
+	sd	a5,-32(s0) (PC = 7)
+LOAD  From Memory Address: df0 From Reg a5, Value is 0 
+
+	li	a5,20 (PC = 8)
+Imm = 14  
+Result : a5 = 14 
+
+	sd	a5,-40(s0) (PC = 9)
+LOAD  From Memory Address: de8 From Reg a5, Value is 0 
+
+	ld	a5,-24(s0) (PC = 10)
+LOAD  From Memory Address: df8 From Reg a5, Value is c 
+
+	li	a4,16 (PC = 11)
+Imm = 10  
+Result : a4 = 10 
+
+	sw	a4,0(a5) (PC = 12)
+LOAD  From Memory Address: c From Reg a4, Value is 0 
+
+	ld	a5,-32(s0) (PC = 13)
+LOAD  From Memory Address: df0 From Reg a5, Value is 10 
+
+	li	a4,-17 (PC = 14)
+Imm = -11  
+Result : a4 = -11 
+
+	sw	a4,0(a5) (PC = 15)
+LOAD  From Memory Address: 10 From Reg a4, Value is 0 
+
+	ld	a5,-24(s0) (PC = 16)
+LOAD  From Memory Address: df8 From Reg a5, Value is c 
+
+	lw	a4,0(a5) (PC = 17)
+LOAD  From Memory Address: c From Reg a4, Value is 10 
+
+	ld	a5,-32(s0) (PC = 18)
+LOAD  From Memory Address: df0 From Reg a5, Value is 10 
+
+	lw	a5,0(a5) (PC = 19)
+LOAD  From Memory Address: 10 From Reg a5, Value is -11 
+
+	addw	a5,a4,a5 (PC = 20)
+Source Reg 0 : a4 = 10  
+Source Reg 1: a5 = -11  
+Result : a5 = -1 
+
+	sext.w	a4,a5 (PC = 21)
+Source Reg 0 : a5 = -1  
+Result : a4 = -1 
+
+	ld	a5,-40(s0) (PC = 22)
+LOAD  From Memory Address: de8 From Reg a5, Value is 14 
+
+	sw	a4,0(a5) (PC = 23)
+LOAD  From Memory Address: 14 From Reg a4, Value is 0 
+
+	li	a5,0 (PC = 24)
+Imm = 0  
+Result : a5 = 0 
+
+	mv	a0,a5 (PC = 25)
+Source Reg 0 : a5 = 0  
+Result : a0 = 0 
+
+	ld	s0,40(sp) (PC = 26)
+LOAD  From Memory Address: e08 From Reg s0, Value is 0 
+
+	add	sp,sp,48 (PC = 27)
+Source Reg 0 : sp = de0  
+Imm: 30  
+Result : sp = e10 

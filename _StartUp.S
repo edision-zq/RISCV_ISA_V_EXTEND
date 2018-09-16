@@ -1,0 +1,2 @@
+_InitBegin:
+_InitEnd:
